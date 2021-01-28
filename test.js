@@ -1,6 +1,6 @@
 
 const printSum = function (a, b) {
-  //  console.log(a + b)
+    //  console.log(a + b)
 }
 printSum(4, 3)
 
@@ -10,12 +10,12 @@ const sum = (a, b) => {
 
 const subtract = (a, b) => a - b
 
-function rand({min = 0, max = 1000}) {
+function rand({ min = 0, max = 1000 }) {
     const value = Math.random() * (max - min) + min
     return Math.floor(value)
 }
 
-const obj = {max: 100, min: 10}
+const obj = { max: 100, min: 10 }
 //console.log(rand(obj))
 
 
