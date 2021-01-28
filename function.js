@@ -9,5 +9,3 @@ const sum = (a, b) => {
 }
 
 const subtract = (a, b) => a - b
-
-//test
