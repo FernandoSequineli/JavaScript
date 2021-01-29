@@ -37,3 +37,4 @@ function soma3 (a,b,c) {
     c = c || 1
     return a + b + c
 }
+//test
