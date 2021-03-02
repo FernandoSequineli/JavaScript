@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript</title>
+
+</head>
+
+<body>
+  
+<input id="entrada" onkeyup="caracteres()" type="text" placeholder="Digite um caractere">
+<hr>
+<input id="apenas_letras" type="text" placeholder="letras" disabled="disabled">
+<input id="apenas_numeros" type="text" placeholder="numeros" disabled="disabled">
+</body>
+<script>
+  function caracteres(){
+    var caracter = document.getElementById('entrada').value
+    
+    document.getElementById('entrada').value = ''
+    //console.log(caracter)
+    caracter.trim()
+    switch(caracter){
+      case '0':
+      case '1':
+      case '2':
+      case '3':
+      case '4':
+      case '5':
+      case '6':
+      case '7':
+      case '8':
+      case '9':
+      document.getElementById('apenas_numeros').value += caracter
+      break;
+      default: 
+      document.getElementById('apenas_letras').value += caracter
+    }
+
+  }
+  </script>
+</html>
