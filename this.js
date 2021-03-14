@@ -5,7 +5,6 @@ const pessoa = {
         console.log(this.saudacao)
     }
 }
-
 //pessoa.falar()
 const falar2 = pessoa.falar
 falar2()
