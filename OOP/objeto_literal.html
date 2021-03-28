@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <script>
+      class Produto {
+        constructor(descricao, preco){
+          this.descricao = descricao
+          this.preco = preco
+        }
+        verDescricao(){
+          console.log(`${this.descricao} por apenas ${this.preco}`)
+        }
+      }
+
+      let laptop = new Produto("notebook", 2200)
+      laptop.verDescricao()
+//---------------------------------------------------
+
+      let produtoLiteral = {
+        descricao: 'Geladeira',
+        preco: 1700,
+        verDescricao: function(descricao, preco){
+          console.log(`${this.descricao} por apenas ${this.preco}`)
+        }
+      }
+
+      produtoLiteral.verDescricao();
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
