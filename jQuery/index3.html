@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<div id="myId">Add HTML before and after this</div>
+<p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, soluta placeat, deserunt reprehenderit esse provident expedita quibusdam, iste qui voluptate ut ipsa quae corporis. Sapiente expedita dolores nihil commodi ea?</p>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("div#myId")
+        .before("<h1>H1</h1>")
+        .after("<h4>H4</h4>")
+      
+      $("p").remove();  
+
+
+
+    });
+  </script>
+</body>
+</html>
