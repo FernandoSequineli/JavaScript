@@ -13,3 +13,5 @@ const numerosPares = numeros.reduce(function (acumulador, valor, indice, array) 
 
 }, [])
 console.log(numerosPares);
+
+
