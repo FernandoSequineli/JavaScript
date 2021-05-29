@@ -13,7 +13,6 @@ const pessoas = [
   { nome: 'Marcia', idade: 73 },
   { nome: 'Joao', idade: 22 },
 ]
-
 const nomes = pessoas.map(function (obj) {
   return obj.nome;
 })
