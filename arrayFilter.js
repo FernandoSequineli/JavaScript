@@ -6,6 +6,7 @@ const pessoas = [
   { nome: 'Joao', idade: 22 },
 ]
 
+
 const nomeMaiorQueCinco = pessoas.filter(obj => obj.nome.length >=5);
 const idadeMaiorQueCinquenta = pessoas.filter(obj => obj.idade >= 50);
 const terminaComA = pessoas.filter(obj => obj.nome.toLowerCase().endsWith('a'));
